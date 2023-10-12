@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="./imgs/logo.png" type="image/x-icon">
+    <!-- * Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- *CSS FIles -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-transparent py-4 ">
+        <div class="container  nav-container">
+            <a class="navbar-brand " href="#">
+                <div class="d-flex justify-content-center align-items-center gap-2">
+                    <img class="w-25 h-25" src="./imgs/logo.png" alt="">
+                    <div>
+                        <h1 class="m-0 text-white fs-6 fw-bolder">Wether</h1>
+                        <small class="fs-6 text-white">tagline goes here</small>
+                    </div>
+                </div>
+            </a>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container-fluid cards">
+        <div class="container">
+            <div class="d-flex form-group bg-mainBlack my-5  rounded-5 ">
+                <input id="inputSerch" type="text" class=" w-100 text-white bg-transparent  border-0 px-4"
+                    placeholder="Find Your Location ...">
+                <button class="btn btn-info px-4 rounded-5 text-white">Find</button>
+            </div>
+            <div class="card-group">
+                <div class="card">
+                    <div class="card-header">
+
+                    </div>
+                    <div class="card-body">
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+
+                    </div>
+                    <div class="card-body">
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+
+                    </div>
+                    <div class="card-body">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer >
+        <div class="d-flex align-items-center justify-content-around flex-wrap  px-3 mt-5  ">
+            <div class="bg-mainBlack w-50 d-flex justify-content-between rounded-5">
+                <input id="inputSerch" type="text" class=" w-100 text-white bg-transparent  border-0 px-4"
+                    placeholder="Enter Your Email To Subscribe ...">
+                <button class="btn btn-info px-4 rounded-5 text-white">Subscribe</button>
+            </div>
+            <div>
+                <ul class="d-flex align-items-center m-0 gap-3 ">
+                    <li class="d-flex justify-content-center align-items-center bg-mainBlack">
+                        <a class="text-blue" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li class="d-flex justify-content-center align-items-center bg-mainBlack">
+                        <a class="text-blue" href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li class="d-flex justify-content-center align-items-center bg-mainBlack">
+                        <a class="text-blue" href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                    </li>
+                    <li class="d-flex justify-content-center align-items-center bg-mainBlack">
+                        <a class="text-blue" href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="w-100 text-center py-5">
+            <span class="text-white">Copyright 2014 Company name. Designed by Themezy. All rights reserved</span>
+        </div>
+    </footer>
+    <!-- *JavaScript Files -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
